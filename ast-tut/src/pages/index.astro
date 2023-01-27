@@ -11,9 +11,15 @@ import Footer from "../layouts/footer.astro";
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body class="grid place-items-center h-screen content-center">
+	<body>
 		<Header />
-		<h1>Astro</h1>
+		<h1 class="text-xl text-center p-10 ">Astro</h1>
+		<div class="intro flex justify-center items-start gap-10 text-center mb-6">
+			<div class="card w-64 h-72 rounded-lg bg-slate-500 text-white text-lg">Card</div>
+			<div class="card w-64 h-72 rounded-lg bg-slate-500 text-white text-lg">Card</div>
+			<div class="card w-64 h-72 rounded-lg bg-slate-500 text-white text-lg">Card</div>
+			<div class="card w-64 h-72 rounded-lg bg-slate-500 text-white text-lg">Card</div>
+		</div>
 		<Footer/>
 	</body>
 </html>
